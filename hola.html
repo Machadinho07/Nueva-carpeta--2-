@@ -1,10 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            text-align: center;
+        }
+
+        header{
+            border-bottom: 1px solid black;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            border-bottom: 1px solid black;
+            align-items: center;
+            align-content: space-around;
+        }
+
+        .contenido{
+            border: 1px solid black;
+            margin: 10px;
+
+        }
+
+        footer{
+            border-bottom: 1px solid black;
+        }
+
+    </style>
 </head>
 <body>
     <header>
@@ -14,16 +44,18 @@
     </header>
     <body>
         <div class="container">
-            <div class="contenido1">
+            <div class="contenido">
                 <p>Aca va algo</p>
             </div>
-            <div class="contenido2">
+            <div class="contenido">
                 <p>Aca va otra cosa</p>
             </div>
         </div>
     </body>
     <footer>
-
+        <p>
+            Hooola, soy un footer
+        </p>
     </footer>
 </body>
 </html>
